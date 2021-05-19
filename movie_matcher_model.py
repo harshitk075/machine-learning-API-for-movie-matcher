@@ -111,6 +111,3 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 
 get_recommendations('Avatar'.lower(), cosine_sim)
 # get_recommendations('The Dark Knight Rises', cosine_sim)
-
-df3= pickle.load(open("dataframe.pkl", "rb"))
-df3['title']
